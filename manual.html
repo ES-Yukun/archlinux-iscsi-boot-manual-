@@ -33,11 +33,6 @@
             <pre>iscsiadm -m discovery -t sendtargets -p 192.168.1.10</pre>
             <pre>iscsiadm -m node -T iqn.2000-01.org.arch-target:archlinux-target -p 192.168.11.10 -l</pre>
         </code></div>
-        <p>iscsiターゲットに接続してください。</p>
-        <div class="code"><code>
-            <pre>iscsiadm -m discovery -t sendtargets -p 192.168.1.10</pre>
-            <pre>iscsiadm -m node -T iqn.2000-01.org.arch-target:archlinux-target -p 192.168.11.10 -l</pre>
-        </code></div>
         <p>iscsiディスクがどこにつながったか確認し、パーティショニングしてください。<br>(ここでは/dev/sdbをiscsiディスクとします。)</p>
         <p> ※swapはiscsiに構成しないことを推奨します。この忠告は無視しても構いません。</p>
         <div class="code"><code>
